@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>ABRA AQUI</title>
+    <script>
+      window.onload = () => {
+        const textSpan1 = document.querySelector("#names");
+        const urlParams = new URLSearchParams(window.location.search);
+
+        document.querySelector("#names").textContent = urlParams.get("names");
+      };
+    </script>
+  </head>
+  <body>
+    <div id="carousel-1">
+      <span id="names"></span
+      ><span id="accept">Aceitam ser nossos padrinhos?</span>
+    </div>
+    <div id="carousel-2">
+      <div id="wrapper">
+        <span id="title">Bianca & Gabriel</span>
+        <span id="text-1"
+          >JUNTAMENTE COM SEUS PAIS CONVIDAM PARA SEREM PADRINHOS EM NOSSO
+          CASAMENTO</span
+        >
+        <span id="date-and-time"
+          ><span id="date">09 | DEZ | 2023</span
+          ><span id="time">às 17h</span></span
+        >
+      </div>
+    </div>
+  </body>
+</html>
