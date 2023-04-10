@@ -68,31 +68,55 @@ body {
   }
 
   @media only screen and (max-width: 549px) {
-    background-position-x: calc(-71vw);
+    background-position-x: -75vw;
   }
 
   @media only screen and (max-width: 525px) {
-    background-position-x: calc(-267vw);
+    background-position-x: -267vw;
+  }
+
+  @media only screen and (max-width: 515px) {
+    background-position-x: -275vw;
   }
 
   @media only screen and (max-width: 490px) {
-    background-position-x: calc(-295vw);
+    background-position-x: -295vw;
   }
 
-  @media only screen and (max-width: 460px) {
-    background-position-x: calc(-94vw);
+  @media only screen and (max-width: 475px) {
+    background-position-x: -94vw;
+  }
+
+  @media only screen and (max-width: 445px) {
+    background-position-x: -100vw;
   }
 
   @media only screen and (max-width: 415px) {
-    background-position-x: calc(-137vw);
+    background-position-x: -114vw;
+  }
+
+  @media only screen and (max-width: 395px) {
+    background-position-x: -118vw;
   }
 
   @media only screen and (max-width: 375px) {
-    background-position-x: calc(-130vw);
+    background-position-x: -130vw;
+  }
+
+  @media only screen and (max-width: 365px) {
+    background-position-x: -134vw;
   }
 
   @media only screen and (max-width: 335px) {
-    background-position-x: calc(-157vw);
+    background-position-x: -157vw;
+  }
+
+  @media only screen and (max-width: 300px) {
+    background-position-x: -171vw;
+  }
+
+  @media only screen and (max-width: 300px) {
+    background-position-x: -181vw;
   }
 }
 

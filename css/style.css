@@ -55,25 +55,43 @@ body {
     width: 100%; }
   @media only screen and (max-width: 549px) {
     #carousel-1 {
-      background-position-x: calc(-71vw); } }
+      background-position-x: -75vw; } }
   @media only screen and (max-width: 525px) {
     #carousel-1 {
-      background-position-x: calc(-267vw); } }
+      background-position-x: -267vw; } }
+  @media only screen and (max-width: 515px) {
+    #carousel-1 {
+      background-position-x: -275vw; } }
   @media only screen and (max-width: 490px) {
     #carousel-1 {
-      background-position-x: calc(-295vw); } }
-  @media only screen and (max-width: 460px) {
+      background-position-x: -295vw; } }
+  @media only screen and (max-width: 475px) {
     #carousel-1 {
-      background-position-x: calc(-94vw); } }
+      background-position-x: -94vw; } }
+  @media only screen and (max-width: 445px) {
+    #carousel-1 {
+      background-position-x: -100vw; } }
   @media only screen and (max-width: 415px) {
     #carousel-1 {
-      background-position-x: calc(-137vw); } }
+      background-position-x: -114vw; } }
+  @media only screen and (max-width: 395px) {
+    #carousel-1 {
+      background-position-x: -118vw; } }
   @media only screen and (max-width: 375px) {
     #carousel-1 {
-      background-position-x: calc(-130vw); } }
+      background-position-x: -130vw; } }
+  @media only screen and (max-width: 365px) {
+    #carousel-1 {
+      background-position-x: -134vw; } }
   @media only screen and (max-width: 335px) {
     #carousel-1 {
-      background-position-x: calc(-157vw); } }
+      background-position-x: -157vw; } }
+  @media only screen and (max-width: 300px) {
+    #carousel-1 {
+      background-position-x: -171vw; } }
+  @media only screen and (max-width: 300px) {
+    #carousel-1 {
+      background-position-x: -181vw; } }
 
 #carousel-2 {
   background-image: url("../images/1.jpg");
